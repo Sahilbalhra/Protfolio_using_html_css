@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  background-color: rgb(243, 241, 241);
+  width: 14vw;
+  height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+  position: fixed;
+}
+.sidebar img {
+  height: 10rem;
+  width: 11rem;
+  padding: 0.8rem;
+  border-radius: 50%;
+}
+.sidebar nav {
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+.sidebar nav li {
+  list-style: none;
+  padding: 1rem;
+}
+.sidebar nav li:hover {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+  font-family: "Alegreya", serif;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+  }
+.main {
+  /* background-color: red; */
+  margin: 2rem;
+  width: 80vw;
+  margin-left: 15rem;
+  position: relative;
+}
+
+.devInfo {
+  display: flex;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+  justify-content: center;
+  padding: 10vh;
+}
+.profile-logo{
+  display: flex;
+}
+.profile-logo img{
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem;
+  border-style: none;
+  background-color: rgb(243, 241, 241) ;
+ 
+  border-radius: 32%;
+}
+.intro {
+  font-size: 45px;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Fira Sans", sans-serif;
+}
+.about {
+  font-size: 40px;
+}
+.about .tobeChange{
+    visibility: hidden;
+    position: relative;
+
+}
+
+.buttons button {
+  margin: 10px;
+  border-radius: 12px;
+  padding: 10px;
+}
+.buttons button:hover {
+  background-color: #fbeedd;
+  cursor: pointer;
+}
+.devPic img {
+  height: 47vh;
+  width: 20vw;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.card{
+    background-color: whitesmoke;
+    margin: 2rem;
+    padding: 2rem;
+    /* height: 60vh; */
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.main_icon{
+  display: flex;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 1px grey;
+}
+.aboutDevloper p{
+
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.skill_details{
+  display: block;
+  text-align: center;
+  margin: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 550;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+
+.icon{
+  width: 9rem;
+  height: 9rem;
+}
+
+.phonenumber{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.more-contact .profile-logo{
+  display: block;
+  padding: 1rem;
+}
